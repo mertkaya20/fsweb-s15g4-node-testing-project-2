@@ -28,3 +28,9 @@ Projenizi bir araya getirmenize yardımcı olacak görevlerin bir kontrol listes
 - Birkaç veritabanı erişim işlevi ve birkaç uç nokta ile basit ve hızlı bir uygulama oluşturun.
 - Postman, HTTPie veya benzerini kullanarak uç noktalarınızı manuel olarak test edin.
 - Supertest ile uç noktalarınızı test edin.
+
+## NextGen Testleri Çalıştırma
+
+- Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Projeyi tamamladıktan sonra sonucu NextGen'e göndermek için `npm run sendresults` komutunu kullanın.
+- Komut çalıştıktan sonra NextGen sayfasını refresh ederek skorunuzu kontrol edebilirsiniz.
